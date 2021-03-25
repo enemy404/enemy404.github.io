@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href=" {% static 'css/style.css' %}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <title>Dota-KKK</title>
+
 </head>
 <body>
 
@@ -14,7 +16,7 @@
     <div class="container">
         <div class="header__inner">
             <div class="header__logo">
-                <img src="assets/images/logo2.png" alt="">
+                <img src="{% static 'images/logo2.png' %}" alt="">
             </div>
             <nav class="nav">
 
@@ -46,32 +48,32 @@
 <div class="container">
     <div class="features">
         <div class="features__item">
-            <img class="features__icon" src="assets/images/features/f-sashagomz.jpg" alt="">
+            <img class="features__icon" src="{% static 'images/features/f-sashagomz.jpg' %}" alt="">
             <h4 class="features__title">Саша Гомзяк</h4>
             <div class="features__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
         </div>
         <div class="features__item">
-            <img class="features__icon" src="assets/images/features/f-iluhafed.jpg" alt="">
-            <h4 class="features__title">Илюха Котикc</h4>
+            <img class="features__icon" src="{% static 'images/features/f-iluhafed.jpg' %}" alt="">
+            <h4 class="features__title">Илюха Котик</h4>
             <div class="features__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
         </div>
         <div class="features__item">
-            <img class="features__icon" src="assets/images/features/f-kandakov.jpg" alt="">
+            <img class="features__icon" src="{% static 'images/features/f-kandakov.jpg' %}" alt="">
             <h4 class="features__title">саня кандачков</h4>
             <div class="features__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
         </div>
         <div class="features__item">
-            <img class="features__icon" src="assets/images/features/f-vasya.jpg" alt="">
+            <img class="features__icon" src="{% static 'images/features/f-vasya.jpg' %}" alt="">
             <h4 class="features__title">вася лапырь</h4>
             <div class="features__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
         </div>
         <div class="features__item">
-            <img class="features__icon" src="assets/images/features/f-vezh.jpg" alt="">
+            <img class="features__icon" src="{% static 'images/features/f-vezh.jpg' %}" alt="">
             <h4 class="features__title">дана вежливая</h4>
             <div class="features__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
         </div>
         <div class="features__item">
-            <img class="features__icon" src="assets/images/features/f-kandakov.jpg" alt="">
+            <img class="features__icon" src="{% static 'images/features/f-kandakov.jpg' %}" alt="">
             <h4 class="features__title">саня кандачков</h4>
             <div class="features__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
         </div>
@@ -81,56 +83,56 @@
 <!-- Works -->
 <div class="works">
     <div class="works__item">
-        <img class="works_img" src="assets/images/works/w-io.jpg" alt="">
+        <img class="works_img" src="{% static 'images/works/w-io.jpg' %}" alt="">
         <div class="works__content">
             <div class="works__title">Wisp</div>
             <div class="works__text">Чел, ты сыночек)</div>
         </div>
     </div>
     <div class="works__item">
-        <img class="works_img" src="assets/images/works/w-pl.jpg" alt="">
+        <img class="works_img" src="{% static 'images/works/w-pl.jpg' %}" alt="">
         <div class="works__content">
             <div class="works__title">Phantom Lancer</div>
             <div class="works__text">Чел, ты сыночек)</div>
         </div>
     </div>
     <div class="works__item">
-        <img class="works_img" src="assets/images/works/w-slark.jpg" alt="">
+        <img class="works_img" src="{% static 'images/works/w-slark.jpg' %}" alt="">
         <div class="works__content">
             <div class="works__title">Slark</div>
             <div class="works__text">Чел, ты сыночек)</div>
         </div>
     </div>
     <div class="works__item">
-        <img class="works_img" src="assets/images/works/w-tech.jpg" alt="">
+        <img class="works_img" src="{% static 'images/works/w-tech.jpg' %}" alt="">
         <div class="works__content">
             <div class="works__title">Techies</div>
             <div class="works__text">Чел, ты сыночек)</div>
         </div>
     </div>
     <div class="works__item">
-        <img class="works_img" src="assets/images/works/w-ln.jpg" alt="">
+        <img class="works_img" src="{% static 'images/works/w-ln.jpg' %}" alt="">
         <div class="works__content">
             <div class="works__title">Alone Druid</div>
             <div class="works__text">Чел, ты сыночек)</div>
         </div>
     </div>
     <div class="works__item">
-        <img class="works_img" src="assets/images/works/w-mk.jpg" alt="">
+        <img class="works_img" src="{% static 'images/works/w-mk.jpg' %}" alt="">
         <div class="works__content">
             <div class="works__title">Monkey King</div>
             <div class="works__text">Чел, ты сыночек)</div>
         </div>
     </div>
     <div class="works__item">
-        <img class="works_img" src="assets/images/works/w-pudje.jpg" alt="">
+        <img class="works_img" src="{% static 'images/works/w-pudje.jpg' %}" alt="">
         <div class="works__content">
             <div class="works__title">pudge</div>
             <div class="works__text">Чел, ты сыночек)</div>
         </div>
     </div>
     <div class="works__item">
-        <img class="works_img" src="assets/images/works/w-sf.jpg" alt="">
+        <img class="works_img" src="{% static 'images/works/w-sf.jpg' %}" alt="">
         <div class="works__content">
             <div class="works__title">Shadow Friend</div>
             <div class="works__text">Чел, ты сыночек)</div>
@@ -143,31 +145,31 @@
     <div class="container">
         <div class="team__inner">
             <div class="team__item">
-                <img class="team__img" src="assets/images/teams/t-kotik.jpg" alt="">
+                <img class="team__img" src="{% static 'images/teams/t-kotik.jpg' %}" alt="">
                 <div class="team__title">Илюха Котик</div>
                 <div class="team__role">Support</div>
                 <div class="team__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
             </div>
             <div class="team__item">
-                <img class="team__img" src="assets/images/teams/t-kandakov.jpg" alt="">
+                <img class="team__img" src="{% static 'images/teams/t-kandakov.jpg' %}" alt="">
                 <div class="team__title">Саша Кандачков</div>
                 <div class="team__role">Carry</div>
                 <div class="team__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
             </div>
             <div class="team__item">
-                <img class="team__img" src="assets/images/teams/t-sashagomz.jpg" alt="">
+                <img class="team__img" src="{% static 'images/teams/t-sashagomz.jpg' %}" alt="">
                 <div class="team__title">Саша Гомзяк</div>
                 <div class="team__role">Midlane</div>
                 <div class="team__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
             </div>
             <div class="team__item">
-                <img class="team__img" src="assets/images/teams/t-vasya.jpg" alt="">
+                <img class="team__img" src="{% static 'images/teams/t-vasya.jpg' %}" alt="">
                 <div class="team__title">Вася Лапырь</div>
                 <div class="team__role">Offlane</div>
                 <div class="team__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
             </div>
             <div class="team__item">
-                <img class="team__img" src="assets/images/teams/t-shprot.jpg" alt="">
+                <img class="team__img" src="{% static 'images/teams/t-shprot.jpg' %}" alt="">
                 <div class="team__title">Илюха Шпрот</div>
                 <div class="team__role">Support</div>
                 <div class="team__text">Чувак, у меня пиздатая жизнь,спортивная проф. Карьера, высокооплачиваемая работа, пиздатая девушка и множество друзей. Дота для меня развлечение. Я не думаю что ты можешь мне вообще что-то писать)</div>
@@ -215,8 +217,5 @@
 
 </footer>
 
-
 </body>
 </html>
-
-
